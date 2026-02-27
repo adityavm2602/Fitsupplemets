@@ -1,0 +1,18 @@
+/* Full-page reset */
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #f6f7fb; /* same as your app background */
+}
+
+/* IMPORTANT: remove Vite max-width limitation */
+#root {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
